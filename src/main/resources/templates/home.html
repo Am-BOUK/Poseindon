@@ -8,13 +8,18 @@
 </head>
 <body>
 	<h3>HOME PAGE</h3>
-	<div class="col-6 text-right">
+	<div class="col-6 text-right" sec:authorize="isAuthenticated">
 		Logged in : <b><span th:text="${userInfo}"></span></b><br>
 	</div>
-	<p>
-		<a sec:authorize="!isAuthenticated" href="/login">Login</a> <a
-			sec:authorize="isAuthenticated" href="/login">Logout</a> or create
-		one <a href="/user/list">User management</a>
-	</p>
+	<div>
+		<a sec:authorize="!isAuthenticated" href="/login">Login</a>
+		<form sec:authorize="isAuthenticated" th:action="@{/app-logout}"
+			method="POST">
+			<input type="submit" value="Logout" />
+		</form>
+		<!-- <a
+			sec:authorize="isAuthenticated" href="/login?logout">Logout</a> -->
+		or create one <a href="/user/list">User management</a>
+	</div>
 </body>
 </html>

@@ -36,7 +36,7 @@ https://dev.mysql.com/downloads/installer/
 
 
 ### Clone repo
-git clone https://github.com/Am-BOUK/poseidon.git
+https://github.com/Am-BOUK/poseindon.git
 
 
 ### Running App
