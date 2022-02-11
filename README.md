@@ -42,7 +42,7 @@ https://github.com/Am-BOUK/poseindon.git
 ### Running App
 
 * SQL scripts is present under the resources folder in the code base :
-  
+  https://github.com/Am-BOUK/poseindon/blob/main/doc/data.sql
 
 * To have the jar file in the target folder :
 	-mvn clean package
