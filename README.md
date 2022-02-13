@@ -1,7 +1,7 @@
 # Poseidon
 
 ## Description
-Poseidon is an app that that aims to generate more transactions for institutional investors who buy and sell fixed income.
+Poseidon is an app that aims to generate more transactions for institutional investors who buy and sell fixed income.
 
 ## Getting Started
 
